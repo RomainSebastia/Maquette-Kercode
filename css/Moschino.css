@@ -2,10 +2,11 @@
 
 
 body {
-    width: 1200px;
+   width: 1200px;
    text-decoration: none;
    background-color: white;
-    margin: auto; 
+   margin: auto;
+
 }
 
 
@@ -247,8 +248,12 @@ nav {
 footer {
 
    background-color: #333;
-   margin-top: 30px;
-   width: 100%;
+   margin-top: 30px; 
+   margin: 20px auto;
+   width: 80%;
+   padding: 15px;
+   
+
 
 
 }
@@ -261,20 +266,159 @@ footer {
 
 /* texte dans le bloc */
 
-.h1-footer {
+h1.titre-fin {
    color: #fff;
    font-family: 'Herr Von Muellerhoff';
-   margin: auto;
-   padding-top: 40px;
-   font-size: 3rem;
+   font-size:  2rem;
    text-align: center;
+   
+   align-items: center;
+   
+
 
 }
 
 
-.p-footer {
-   text-align: center;
-   padding-bottom: 40px;
+.dernier-mots {
+   
    color: #FFF;
-   font-size: 1rem;
+   font-size: 2.2rem;
+
+ 
+  }
+
+
+
+
+/* RESPONSIV */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1024px) {
+
+
+   body {
+      width: 300px;
+   }
+
+   /* bordure */
+
+
+   .bordure-haut {
+      font-family: 'Quattrocento Sans', 'Roboto';
+      background-color: #333;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.1rem;
+      margin: auto;
+      color: #fff;
+      width: 90%;
+   }
+
+
+
+   /* NAV */
+
+
+   .menu {
+      text-decoration: none;
+      margin-left: 20px;
+      color: #000;
+      font-family: 'Oswald';
+      text-align: center;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-weight: 900;
+
+   }
+
+
+   .menu-ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      text-transform: uppercase;
+      align-items: center;
+      margin-right: 58px;
+
+
+   }
+
+
+   /* SECTION */
+
+
+   .article {
+      width: 90%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+   }
+
+
+   .img-article {
+      width: 100%;
+
+   }
+
+   .photo-image {
+      width: 100%;
+
+   }
+
+
+   /* FOOTER */
+
+
+
+
+
+
+   footer {
+
+      background-color: #333;
+      margin-top: 10px;
+      width: 100%;
+      padding: 4px;
+   }  
+
+
+
+}
+
+
+
+h1.titre-fin {
+   color: #fff;
+   font-family: 'Herr Von Muellerhoff';
+   font-size: 2.2rem;
+   text-align: center;
+
+    align-items: center;
+ 
+
+
+}
+
+
+.dernier-mots {
+   text-align: center;
+    color: #FFF;
+   font-size: 0.8rem;
+   align-items: center;
+   
+   
+
 }

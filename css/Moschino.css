@@ -1,6 +1,4 @@
 /* Corps de la page */
-
-
 body {
    width: 1200px;
    text-decoration: none;
@@ -9,25 +7,7 @@ body {
 
 }
 
-
-
-
-
-/*   font-family: 'Herr Von Muellerhoff', cursive;
-font-family: 'Quattrocento Sans', sans-serif;
-font-family: 'Roboto', sans-serif;        */
-
-
 /* Header */
-
-
-
-
-
-
-
-
-
 .bordure-haut {
    font-family: 'Quattrocento Sans', 'Roboto';
    background-color: #333;
@@ -38,27 +18,15 @@ font-family: 'Roboto', sans-serif;        */
    color: #fff;
 }
 
-
-
-
-
 h1 {
    text-align: center;
    color: #000;
    font-family: 'Herr Von Muellerhoff';
    font-weight: 100;
    font-size: 3.9rem;
-
-
 }
 
-
-
-
 /* premier h2 (collection d'été) */
-
-
-
 .sous-titre {
    text-align: center;
    font-family: 'Quattrocento Sans', 'Roboto';
@@ -66,18 +34,9 @@ h1 {
    color: #000;
    font-size: 0.9rem;
    margin-top: -40px;
-
 }
 
-
-
 /* NAV */
-
-
-
-
-
-
 nav {
    border-top: 1px solid black;
    border-bottom: 1px solid black;
@@ -86,12 +45,7 @@ nav {
    margin-top: 30px;
 }
 
-
 /* ul */
-
-
-
-
 .menu-ul {
    display: flex;
    list-style: none;
@@ -102,9 +56,6 @@ nav {
 }
 
 /* li */
-
-
-
 .menu {
    text-decoration: none;
    margin-left: 20px;
@@ -114,7 +65,11 @@ nav {
    font-size: 1.3rem;
    cursor: pointer;
    font-weight: 900;
-
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
 }
 
 
@@ -122,13 +77,7 @@ nav {
    color: yellow;
 }
 
-
-
-
-
 /* section */
-
-
 .article {
    width: 80%;
    justify-content: space-between;
@@ -137,24 +86,16 @@ nav {
    margin: auto;
 }
 
-
 .img-article {
    width: 100%;
-
 }
-
-
 
 .photo-image {
    width: 32%;
    margin-top: 42px;
 }
 
-
-
 .photo-texte {
-
-
    text-transform: uppercase;
    margin-bottom: 10px;
    font-size: 1rem;
@@ -162,13 +103,11 @@ nav {
    margin-top: 5px;
    font-weight: 700;
    font-family: 'Oswald';
-
-}
-
-
-.sous-texte {
-   font-style: italic;
-
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
 }
 
 .photo-texte:hover {
@@ -176,7 +115,13 @@ nav {
    cursor: pointer;
 }
 
-
+.sous-texte {
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
+}
 
 .sous-texte:hover {
    color: yellow;
@@ -185,9 +130,7 @@ nav {
 }
 
 /* Changement de page ( ul ) */
-
 .changement-de-page {
-
    list-style: none;
    display: flex;
    align-items: center;
@@ -197,17 +140,8 @@ nav {
    width: 90%;
 }
 
-
-
-
 /* li */
-
-
-
-
-
 .border-sous-image {
-
    border: lightgrey solid;
    border-left-width: 12px;
    border-right-width: 12px;
@@ -215,8 +149,12 @@ nav {
    color: #FFF;
    cursor: pointer;
    margin-left: 9px;
+   transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
 }
-
 
 .border-sous-image:nth-child(1) {
    border: solid;
@@ -232,89 +170,41 @@ nav {
    letter-spacing: 2px;
 }
 
-
 .border-sous-image:hover {
-
    border-color: yellow;
    background-color: yellow;
 }
 
-
-
 /* Footer */
-
-
-
 footer {
-
    background-color: #333;
    margin-top: 30px; 
-   margin: 20px auto;
-   width: 80%;
+   margin: 0 auto;
    padding: 15px;
-   
-
-
-
 }
 
-
-
-
-
-
-
 /* texte dans le bloc */
-
 h1.titre-fin {
    color: #fff;
    font-family: 'Herr Von Muellerhoff';
    font-size:  2rem;
    text-align: center;
-   
    align-items: center;
-   
-
-
 }
 
-
-.dernier-mots {
-   
+/* COPYRIGHT */
+.dernier-mots {   
    color: #FFF;
    font-size: 2.2rem;
+}
 
- 
-  }
-
-
-
-
-/* RESPONSIV */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* RESPONSIVE */
 @media all and (max-width: 1024px) {
-
-
    body {
-      width: 300px;
+      width: 100%;
    }
 
    /* bordure */
-
-
    .bordure-haut {
       font-family: 'Quattrocento Sans', 'Roboto';
       background-color: #333;
@@ -326,11 +216,7 @@ h1.titre-fin {
       width: 90%;
    }
 
-
-
    /* NAV */
-
-
    .menu {
       text-decoration: none;
       margin-left: 20px;
@@ -340,7 +226,6 @@ h1.titre-fin {
       font-size: 0.8rem;
       cursor: pointer;
       font-weight: 900;
-
    }
 
 
@@ -351,14 +236,9 @@ h1.titre-fin {
       text-transform: uppercase;
       align-items: center;
       margin-right: 58px;
-
-
    }
 
-
    /* SECTION */
-
-
    .article {
       width: 90%;
       justify-content: space-between;
@@ -366,7 +246,6 @@ h1.titre-fin {
       flex-direction: column;
       margin: auto;
    }
-
 
    .img-article {
       width: 100%;
@@ -378,47 +257,11 @@ h1.titre-fin {
 
    }
 
-
    /* FOOTER */
-
-
-
-
-
-
    footer {
-
       background-color: #333;
       margin-top: 10px;
       width: 100%;
       padding: 4px;
-   }  
-
-
-
-}
-
-
-
-h1.titre-fin {
-   color: #fff;
-   font-family: 'Herr Von Muellerhoff';
-   font-size: 2.2rem;
-   text-align: center;
-
-    align-items: center;
- 
-
-
-}
-
-
-.dernier-mots {
-   text-align: center;
-    color: #FFF;
-   font-size: 0.8rem;
-   align-items: center;
-   
-   
-
+   }
 }

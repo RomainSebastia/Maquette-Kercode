@@ -112,7 +112,7 @@ nav {
 }
 
 .photo-texte:hover {
-   color: yellow;
+   opacity:0.4;
    cursor: pointer;
 }
 

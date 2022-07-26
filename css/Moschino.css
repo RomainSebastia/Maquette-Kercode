@@ -112,8 +112,13 @@ nav {
 }
 
 .photo-texte:hover {
-   opacity:0.4;
+   opacity:0.5;
    cursor: pointer;
+    transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
 }
 
 .sous-texte {
@@ -126,8 +131,13 @@ nav {
 }
 
 .sous-texte:hover {
-   color: yellow;
+   opacity:0.5
    cursor: pointer;
+    transition: 0.4s;
+   -webkit-transition: 0.4s;
+   -moz-transition: 0.4s;
+   -ms-transition: 0.4s;
+   -o-transition: 0.4s;
 
 }
 

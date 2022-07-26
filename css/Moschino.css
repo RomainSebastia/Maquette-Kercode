@@ -74,7 +74,8 @@ nav {
 
 
 .menu:hover {
-   color: #dfff00;
+   color: #ffff00;
+   font-weight: 700;
 }
 
 /* section */

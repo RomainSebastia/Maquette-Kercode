@@ -103,7 +103,6 @@ nav {
    font-size: 1rem;
    margin: 0;
    margin-top: 5px;
-   padding:10px;
    font-weight: 700;
    font-family: 'Oswald';
    
@@ -123,6 +122,7 @@ nav {
  
    text-align: center;
    word-spacing: 3px;
+   padding:10px;
    
 }
 

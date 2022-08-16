@@ -121,7 +121,7 @@ nav {
 .sous-texte {
  
    text-align: center;
-   margin:5px;
+   word-spacing: 3px;
 }
 
 .sous-texte:hover {

@@ -286,16 +286,17 @@ footer {
 h1.titre-fin {
    color: #fff;
    font-family: 'Herr Von Muellerhoff';
-   font-size: 2.2rem;
+   font-size: 2.6rem;
    text-align: center;
    align-items: center;
+   line-height: 1.4rem;
 }
 
 /* copyright */
 .dernier-mots {
    text-align: center;
    color: #FFF;
-   font-size: 0.8rem;
+   font-size: 0.9rem;
    align-items: center;
    font-family: "roboto";
 }
@@ -310,6 +311,13 @@ h1.titre-fin {
    /* corps de la page */
    body {
       width: 100%;
+   }
+
+
+   /* h2 collection d'été */
+
+   .sous-titre {
+      font-size:1.22rem;
    }
 
 
@@ -368,6 +376,14 @@ h1.titre-fin {
 
    }
 
+   .photo-texte {
+      font-size: 1.30rem;
+   }
+
+   .sous-texte {
+      font-size: 1.40rem;
+   }
+
    /* FOOTER */
    footer {
       background-color: #333;
@@ -375,4 +391,22 @@ h1.titre-fin {
       width: 100%;
       padding: 4px;
    }
+
+   /* texte dans le bloc */
+h1.titre-fin {
+   line-height: 1.1rem;
+   font-size: 2.6rem;
+   
+}
+
+/* copyright */
+.dernier-mots {
+   
+   font-size: 1.1rem;
+   
+   
+}
+
+
+ 
 }

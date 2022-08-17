@@ -2,10 +2,13 @@
 <html lang="fr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moschino</title>
+
+    <!-- référencement -->
     <meta name="description"
         content="Vous êtes intéressé par le site Moschino actuellement nous proposons une remise de -20% valable jusqu'au 15/03 !">
     <meta name="keywords" content="Vêtements, prêt à porter">
@@ -17,26 +20,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/Moschino.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
+
+    <!-- haut de la page -->
+
     <header>
         <p class="bordure-haut">-20% sur les livraisons en France métropolitaine jusqu'au 15/03 !</p>
-        
-            <h1>Moschino</h1>
-            <h2 class="sous-titre">Collection d'été</h2>
-            <nav>
-                <ul class="menu-ul">
-                    <li class="menu">Home</li>
-                    <li class="menu">About</li>
-                    <li class="menu">Shop</li>
-                    <li class="menu">Blog</li>
-                    <li class="menu">Contact</li>
-                    <li>ok</li>
-                </ul>
-            </nav>
-       
+
+        <h1>Moschino</h1>
+        <h2 class="sous-titre">Collection d'été</h2>
+
+        <nav class="nav">
+
+            <!-- j'ai fait une class au nav pour mettre le menu burger au milieu pour la version smartphone-->
+
+            <!-- menu pour ordinateur -->
+
+            <ul class="menu-ul">
+                <li class="menu"><a href="#">Home</a></li>
+                <li class="menu"><a href="#">About</a></li>
+                <li class="menu"><a href="#">Shop</a></li>
+                <li class="menu"><a href="#">Blog</a></li>
+                <li class="menu"><a href="#">Contact</a></li>
+
+            </ul>
+
+            <!-- menu burger seulement pour smartphone -->
+
+            <div id="menu-burger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+
     </header>
+
+    <!-- fin du haut de la page -->
+
+    <!-- menu ouvert / fermé smartphones -->
+
+
+    <section id="nav-smartphone" class="nav-smartphone">
+
+        <a class="bouton-fermer" id="bouton-fermer">&times;</a>
+
+        <!-- &times = la croix pour fermer le menu -->
+
+        <!--  -->
+        <div class="nav-smartphone-liens">
+            <li class="menu"><a href="#">Home</a></li>
+            <li class="menu"><a href="#">About</a></li>
+            <li class="menu"><a href="#">Shop</a></li>
+            <li class="menu"><a href="#">Blog</a></li>
+            <li class="menu"><a href="#">Contact</a></li>
+        </div>
+    </section>
+
+
 
     <!-- section contenant des articles -->
     <section class="article">
@@ -78,7 +123,7 @@
             <p class="photo-texte">Twilight</p>
             <em class="sous-texte">chapeau / femme / été</em>
         </article>
-        
+
         <!-- pagination -->
         <ul class="changement-de-page">
             <li class="border-sous-image">1</a></li>
@@ -92,6 +137,11 @@
         <h1 class="titre-fin">Moschino</h1>
         <p class="dernier-mots">&copy Moschino - copyright 2022</p>
     </footer>
+
+    <!-- java script pour le menu burger pour smartphones -->
+
+    <script src="./script/nav.js"></script>
+
 </body>
 
 </html>

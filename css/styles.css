@@ -72,14 +72,14 @@ nav {
 
 /* a href */
 
-a {
+.menu a {
    text-decoration: none;
    color: #000;
 
 }
 
 
-a:hover {
+.menu a:hover {
    color: #e7e703;
    transition: 0.9s;
    -webkit-transition: 0.9s;
@@ -247,6 +247,13 @@ a:hover {
 
 }
 
+.border-sous-image a {
+
+   color: #FFF;
+   text-decoration: none;
+
+}
+
 /* pagination page 1 en jaune */
 
 .border-sous-image:nth-child(1) {
@@ -381,7 +388,7 @@ h1.titre-fin {
    }
 
    .sous-texte {
-      font-size: 1.40rem;
+      font-size: 1.64rem;
    }
 
    /* FOOTER */

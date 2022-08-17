@@ -330,6 +330,7 @@ h1.titre-fin {
    .bordure-haut {
       padding: 20px 0;
       font-size: 1.1rem;
+      width: 100%;
 
    }
 
@@ -344,6 +345,8 @@ h1.titre-fin {
    .menu {
       font-size: 2.5rem;
       padding: 5px;
+      list-style: none;
+      
    }
 
 
